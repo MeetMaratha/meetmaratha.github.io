@@ -8,9 +8,7 @@ import rust from "../assets/img/rust-logo.png";
 import csharp from "../assets/img/csharp-logo.png";
 import azure from "../assets/img/azure-logo.png";
 import javascript from "../assets/img/javascript-logo.png";
-import tf from "../assets/img/tf-logo.png";
 import opencv from "../assets/img/opencv-logo.png";
-import sklearn from "../assets/img/sklearn-logo.png";
 import flask from "../assets/img/flask-logo.png";
 import django from "../assets/img/django-logo.png";
 import python from "../assets/img/python-logo.png";
@@ -66,27 +64,27 @@ export const Skills = () => {
                                 <div className="slide-group">
                                     <div className="carousel-row">
                                         <div className="item">
-                                            <img src={python} width="50" alt="Image" />
+                                            <img src={python} width="50" alt="Skill" />
                                             <h5>Python</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={aws} alt="Image" />
+                                            <img src={aws} alt="Skill" />
                                             <h5>AWS Cloud</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={mysql} alt="Image" />
+                                            <img src={mysql} alt="Skill" />
                                             <h5>MySQL</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={unreal} alt="Image" />
+                                            <img src={unreal} alt="Skill" />
                                             <h5>Unreal Engine</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={kubernetes} alt="Image" />
+                                            <img src={kubernetes} alt="Skill" />
                                             <h5>Kubernetes</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={arduino} alt="Image" />
+                                            <img src={arduino} alt="Skill" />
                                             <h5>Embedded Systems</h5>
                                         </div>
                                     </div>
@@ -94,27 +92,27 @@ export const Skills = () => {
                                 <div className="slide-group">
                                     <div className="carousel-row">
                                         <div className="item">
-                                            <img src={cpp} width="50" alt="Image" />
+                                            <img src={cpp} width="50" alt="Skill" />
                                             <h5>C++</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={gcp} alt="Image" />
+                                            <img src={gcp} alt="Skill" />
                                             <h5>Google Cloud</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={hadoop} alt="Image" />
+                                            <img src={hadoop} alt="Skill" />
                                             <h5>Hadoop</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={godot} alt="Image" />
+                                            <img src={godot} alt="Skill" />
                                             <h5>Godot Engine</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={linux} alt="Image" />
+                                            <img src={linux} alt="Skill" />
                                             <h5>Linux</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={prom} alt="Image" />
+                                            <img src={prom} alt="Skill" />
                                             <h5>Process Mining Workbench</h5>
                                         </div>
 
@@ -123,27 +121,27 @@ export const Skills = () => {
                                 <div className="slide-group">
                                     <div className="carousel-row">
                                         <div className="item">
-                                            <img src={java} width="50" alt="Image" />
+                                            <img src={java} width="50" alt="Skill" />
                                             <h5>Java</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={azure} alt="Image" />
+                                            <img src={azure} alt="Skill" />
                                             <h5>Azure</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={mongodb} alt="Image" />
+                                            <img src={mongodb} alt="Skill" />
                                             <h5>MongoDB</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={cognos} alt="Image" />
+                                            <img src={cognos} alt="Skill" />
                                             <h5>IBM Cognos</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={asam} alt="Image" />
+                                            <img src={asam} alt="Skill" />
                                             <h5>ASAM Standard</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={webots} alt="Image" />
+                                            <img src={webots} alt="Skill" />
                                             <h5>Webots</h5>
                                         </div>
                                     </div>
@@ -151,27 +149,27 @@ export const Skills = () => {
                                 <div className="slide-group">
                                     <div className="carousel-row">
                                         <div className="item">
-                                            <img src={javascript} width="50" alt="Image" />
+                                            <img src={javascript} width="50" alt="Skill" />
                                             <h5>Java Script</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={pytorch} alt="Image" />
+                                            <img src={pytorch} alt="Skill" />
                                             <h5>PyTorch</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={dynamodb} alt="Image" />
+                                            <img src={dynamodb} alt="Skill" />
                                             <h5>DynamoDB</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={django} alt="Image" />
+                                            <img src={django} alt="Skill" />
                                             <h5>Django</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={opencv} alt="Image" />
+                                            <img src={opencv} alt="Skill" />
                                             <h5>OpenCV</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={qgis} alt="Image" />
+                                            <img src={qgis} alt="Skill" />
                                             <h5>QGIS</h5>
                                         </div>
                                     </div>
@@ -179,27 +177,27 @@ export const Skills = () => {
                                 <div className="slide-group">
                                     <div className="carousel-row">
                                         <div className="item">
-                                            <img src={csharp} width="50" alt="Image" />
+                                            <img src={csharp} width="50" alt="Skill" />
                                             <h5>C#</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={rust} width="50" alt="Image" />
+                                            <img src={rust} width="50" alt="Skill" />
                                             <h5>Rust</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={flask} alt="Image" />
+                                            <img src={flask} alt="Skill" />
                                             <h5>Flask</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={postgis} alt="Image" />
+                                            <img src={postgis} alt="Skill" />
                                             <h5>PostGIS</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={react} alt="Image" />
+                                            <img src={react} alt="Skill" />
                                             <h5>React</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={docker} alt="Image" />
+                                            <img src={docker} alt="Skill" />
                                             <h5>Docker</h5>
                                         </div>
                                     </div>
@@ -209,7 +207,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
+            <img className="background-image-left" src={colorSharp} alt="Skill" />
         </section>
     )
 }
