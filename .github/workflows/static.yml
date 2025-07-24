@@ -39,7 +39,9 @@ jobs:
           node-version: 24
           architecture: x64
       - name: Install Dependencies
-        run: npm ci | npm run build
+        run: | 
+          npm ci
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
