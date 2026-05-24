@@ -9,3 +9,4 @@ loadSection("hero", "sections/hero.html");
 loadSection("projects", "sections/projects.html");
 loadSection("skills", "sections/skills.html");
 loadSection("experience", "sections/experience.html");
+loadSection("education", "sections/education.html");
