@@ -12,3 +12,4 @@ loadSection("experience", "sections/experience.html");
 loadSection("education", "sections/education.html");
 loadSection("certification", "sections/certification.html");
 loadSection("contact", "sections/contact.html");
+loadSection("footer", "sections/footer.html");
