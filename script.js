@@ -7,3 +7,4 @@ function loadSection(id, file) {
 loadSection("navbar", "sections/navbar.html");
 loadSection("hero", "sections/hero.html");
 loadSection("projects", "sections/projects.html");
+loadSection("skills", "sections/skills.html");
