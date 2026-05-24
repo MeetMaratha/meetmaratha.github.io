@@ -21,6 +21,7 @@ loadSection("education", "sections/education.html");
 loadSection("certification", "sections/certification.html");
 loadSection("contact", "sections/contact.html");
 loadSection("footer", "sections/footer.html");
+loadSection("publication", "sections/publication.html");
 
 function typeName() {
   const target = document.getElementById("typed-name");
