@@ -1,41 +1,100 @@
 <!-- EXPERIENCE -->
 <section id="experience" class="fade-in fade-in-d2">
     <div class="section-header">
-      <span class="section-label">//</span>
-      <span class="section-title">work experience</span>
-      <div class="section-line"></div>
+        <span class="section-label">//</span>
+        <span class="section-title">work experience</span>
+        <div class="section-line"></div>
     </div>
+
     <div class="timeline">
 
-      <div class="timeline-item">
-        <div class="timeline-date">JUN 2023 — AUG 2024</div>
-        <div class="timeline-role">Data Scientist</div>
-        <div class="timeline-org"><a href="https://www.simdaas.com" target="_blank">SimDaas Autonomy Pvt. Ltd. ↗</a></div>
-        <div class="timeline-desc">
-          <ul>
-            <li>Developed autonomous driving scenario generation tools, increasing synthetic data generation efficiency by 50%.</li>
-            <li>Engineered robust algorithms for OpenScenario 2.0, enhancing simulation capabilities for autonomous vehicle training.</li>
-            <li>Designed modules for OpenScenario 2.0 pipeline — wrong-way driving, turns, and custom vehicle orientations.</li>
-            <li>Built a GUI and web application integrating all pipeline products for one-click scenario generation.</li>
-            <li>Designed software for generating OpenScenario 1.x scenarios using real-world road maps.</li>
-            <li>Designed a complete autonomous driving scenario workflow using Large Language Models.</li>
-          </ul>
+        <div class="timeline-item">
+            <div class="timeline-date">
+                MAR 2026 - PRESENT
+            </div>
+            <div class="timeline-role">
+                Founding Software Developer
+            </div>
+            <div class="timeline-org">
+                KAbot
+            </div>
+            <div class="timeline-desc">
+                <ul>
+                    <li>Working as a founding developer on a cloud-based ed-tech platform that helps teachers spend less time on administrative work by automating things like lesson plan generation, quiz creation, and gradebook management.</li>
+                    <li>Collaborated with a colleague to write Terraform scripts for deploying the platform on GCP, handling the infrastructure setup from scratch since there was no existing deployment to build on top of.</li>
+                    <li>Contributed to the RAG pipeline that powers the core features of the product, including lesson plan generation and quiz generation, making sure the retrieval and generation steps were working well together and producing useful output.</li>
+                    <li>Researched and experimented with ways to improve the existing pipeline, looking into techniques like late chunking, math-aware ingestion, and math plotting to better handle the kind of content that shows up in educational material.</li>
+                    <li>Brought agile practices to the team by writing proper user stories, and followed TDD by writing tests for the parts of the codebase I touched, leaving things in a better state than I found them rather than just adding new code on top of existing issues.</li>
+                </ul>
+            </div>
         </div>
-      </div>
 
-      <div class="timeline-item">
-        <div class="timeline-date">DATES TBD</div>
-        <div class="timeline-role">Research Intern / Graduate Research Assistant</div>
-        <div class="timeline-org">IISER Bhopal</div>
-        <div class="timeline-desc">Placeholder — please update with correct dates and responsibilities.</div>
-      </div>
+        <div class="timeline-item">
+            <div class="timeline-date">
+                AUG 2025 — JAN 2026
+            </div>
+            <div class="timeline-role">
+                Data Scientist (Co-op)
+            </div>
+            <div class="timeline-org">
+                <a href="https://www.simdaas.com" target="_blank">
+                    SimDaas Autonomy Pvt. Ltd. ↗
+                </a>
+            </div>
+            <div class="timeline-desc">
+                <ul>
+                    <li>Designed and built a variable space exploration tool for OSC2 scenarios, where the software reads constraints directly from an OpenScenario 2.0 file and figures out what combinations of values are valid to test.</li>
+                    <li>The core challenge was making sure the tool didn't just churn through the same kinds of scenarios repeatedly, so I wrote a history-aware logic that tracks what value combinations have been used before and steers exploration toward ones that haven't been seen yet.</li>
+                    <li>Used Google's CP-SAT solver in Python to handle the constraint satisfaction side, which let the tool efficiently search through large variable spaces and find solutions that satisfy the OSC2 constraints without brute forcing every possibility.</li>
+                    <li>The result was a tool that could consistently surface novel, edge-case scenarios rather than clustering around obvious or repetitive parameter combinations, which made the generated test data more useful for training and validation.</li>
+                </ul>
+            </div>
+        </div>
 
-      <div class="timeline-item">
-        <div class="timeline-date">DATES TBD</div>
-        <div class="timeline-role">Role Title — Company Name</div>
-        <div class="timeline-org">Organization Name</div>
-        <div class="timeline-desc">Placeholder — please update with your third work experience details.</div>
-      </div>
+        <div class="timeline-item">
+            <div class="timeline-date">
+                JUN 2023 — AUG 2024
+            </div>
+            <div class="timeline-role">
+                Data Scientist
+            </div>
+            <div class="timeline-org">
+                <a href="https://www.simdaas.com" target="_blank">
+                    SimDaas Autonomy Pvt. Ltd. ↗
+                </a>
+            </div>
+
+            <div class="timeline-desc">
+                <ul>
+                    <li>Built a tool to automatically generate synthetic autonomous driving scenarios using OpenScenario 2.0 and LLMs, cutting manual data generation time by 50%.</li>
+                    <li>Wrote the core algorithms behind several scenario types including wrong-way driving, custom turns, and non-standard vehicle orientations, which filled gaps in the existing pipeline.</li>
+                    <li>Took on the full-stack side as well, building both a desktop GUI and a web app so the team could run the entire scenario pipeline with a single click rather than piecing tools together manually.</li>
+                    <li>Worked on generating OpenScenario 1.x scenarios from real-world road map data, which involved parsing and translating geographic inputs into valid simulation-ready formats.</li>
+                    <li>Prototyped an end-to-end scenario generation workflow driven by LLMs, letting users describe driving situations in plain language and get structured scenario files out the other end.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">
+                OCT 2022 - OCT 2023
+            </div>
+            <div class="timeline-role">
+                Research Intern
+            </div>
+            <div class="timeline-org">
+                IISER Bhopal
+            </div>
+            <div class="timeline-desc">
+                <ul>
+                    <li>Worked on a research paper studying waste collection challenges in developing cities, specifically looking at how to plan better routes for collection vehicles when waste levels at bins keep changing throughout the day.</li>
+                    <li>Modeled smart bins and collection vehicles as agents in a multi-agent environment, where each vehicle would decide its route based on real-time waste values rather than fixed schedules.</li>
+                    <li>Formulated a linear program to help collection vehicles maximize the waste they pick up while keeping travel distance to the central depot as short as possible.</li>
+                    <li>Applied the model to the city of Chandigarh, India, and the results showed noticeably more waste collected over shorter distances and better overall bin coverage compared to how the city was operating before.</li>
+                    <li>The work was aimed at giving city planners a practical tool they could use to allocate resources more effectively and reduce the environmental footprint of waste collection operations.</li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 </section>
